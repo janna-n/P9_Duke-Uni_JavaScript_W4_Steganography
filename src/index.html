@@ -1,0 +1,24 @@
+<div>
+  <h2>Hide an image, in an image</h2>
+<p><canvas id="shown"></canvas> <canvas id="hidden"></canvas></p>
+
+  <p>Shown image: <input type="file" id="showfile" multiple="false" accept="image/*" onchange="uploadShown()" ></p>
+  <p>Hiden image: <input type="file" id="hidefile" multiple="false" accept="image/*" onchange="uploadHidden()" ></p>
+<p><input type="button" id="cropim" value="Hide Your Image" onclick="combinePixels()"> <input type="button" id="clrcan" value="Clear" onclick="clearButt()"></p>
+  
+  <br>
+  
+  <p><em>Displaying the RGB value of the pixel at coordinates (10,10) below:</em></p>
+  <p>Shown image: <input type="text" id="showMes" placeholder="Upload a shown image" disabled /></p>
+  <p>Hidden image: <input type="text" id="hideMes" placeholder="Upload an image to hide" disabled /></p>
+  <p>Combo image: <input type="text" id="newMes" placeholder="Hide your image" disabled /></p>
+
+  
+<br>
+  
+  <p><em>Displaying the RGB value of the pixel at coordinates (10,10) imagining the whole hidden image was extracted below:</em></p>
+  <p><input type="button" id="clrcan" value="Extract Image" onclick="extractHiddenImage()"></p>
+  <p>Pixel example: <input type="text" id="exMes" placeholder="Click the extract button" disabled /></p>
+  
+</div>
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>

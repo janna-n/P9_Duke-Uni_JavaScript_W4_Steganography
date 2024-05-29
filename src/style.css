@@ -1,0 +1,36 @@
+body {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+  font-family: 'Corben', Georgia, Times, serif;
+  background: linear-gradient(to right,#FFFEFF ,#D7FFFE);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #509BDF;
+}
+
+div {
+  font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+canvas {
+  border: 1px solid #333333;
+  border-radius: 3px;
+}
+
+input {
+  background-color: #F2F1EE;
+  padding: 3px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+#showMes, #hideMes, #newMes, #exMes {
+  text-align: center;
+  background-color: #F2F1EE;
+  padding: 3px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  width: 260px;
+}
